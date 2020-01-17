@@ -28,7 +28,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}> 
       <Grid container direction="row" justify="center" alignItems="center" className={classes.root}>
-        <Grid item xs={2}>
+        <Grid item xs={2} lg={1}>
           <Card />
         </Grid>
       </Grid>
